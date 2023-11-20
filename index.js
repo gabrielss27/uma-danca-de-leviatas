@@ -12,7 +12,7 @@ const getBgSize = rect => {
         return { width: Math.floor(rect.height * ratio), height: rect.height }
 }
 
-const mapRelativePos = { x: 1937 / 8000, y: 190 / 4500 }
+const mapRelativePos = { x: 1940 / 8000, y: 191 / 4500 }
 const getMapPos = (rect, bgSize) => {
     const offsetX = rect.width - bgSize.width
     const offsetY = rect.height - bgSize.height
