@@ -88,3 +88,30 @@ html, body {
 .click-anim {
     animation: on-click 0.4s ease-out;
 }
+
+#license {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+    background-color: antiquewhite;
+    max-width: calc(var(--map-width) / 5);
+    padding: 0.5rem;
+    opacity: 0.2;
+}
+
+#license:hover {
+    opacity: 1;
+}
+
+#license p {
+    margin: 0;
+}
+
+ a:link, a:visited, a:hover, a:active {
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
