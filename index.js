@@ -55,7 +55,7 @@ const onTileClick = (elem, row, col, peek) => {
         seq = tileSeq[i] = newSeq()
     }
     
-    const urls = seq.reversemap(k => `url(/assets/${resolution}/tile-${tileIndex}${k+1}.jpg)`).join(", ")
+    const urls = seq.reversemap(k => `url(assets/${resolution}/tile-${tileIndex}${k+1}.jpg)`).join(", ")
     elem.style.setProperty("background-image", urls)
     if (!peek) {
         seq.pop()
