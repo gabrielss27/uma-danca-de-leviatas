@@ -94,13 +94,19 @@ html, body {
     top: 0;
     right: 0;
     text-align: right;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: smaller;
     background-color: antiquewhite;
     max-width: calc(var(--map-width) / 5);
     padding: 0.5rem;
     opacity: 0.2;
 }
+
+@media only screen and (max-aspect-ratio: 3/2) {
+    #license {
+        max-width: calc(var(--map-width));
+    }
+  }
 
 #license:hover {
     opacity: 1;
