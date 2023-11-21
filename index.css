@@ -35,7 +35,7 @@ html, body {
     top: 0; left: 0; right: 0; bottom: 0;
     background-repeat: repeat;
     background-image: url("assets/noise.png");
-    background-color: rgb(99, 61, 39);
+    background-color: rgb(130, 117, 78);
 }
 
 #map {
@@ -81,7 +81,7 @@ html, body {
 
 @keyframes on-click {
     0% { transform: scale(1); }
-    25% { transform: scale(1.1); }
+    25% { transform: scale(1.05); }
     100% { transform: scale(1); }
 }
 
