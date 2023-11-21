@@ -70,7 +70,7 @@ const updateTiles = () => {
 }
 
 const onResize = () => {
-    const container = document.getElementsByTagName("body")[0]
+    const container = document.getElementById("container")
     const map = document.getElementById("map")
     const bodyRect = container.getClientRects()[0]
     const bgSize = getBgSize(bodyRect)
@@ -90,4 +90,4 @@ const onResize = () => {
 }
 
 addEventListener("resize", onResize)
-setTimeout(onResize, 0)
+addEventListener("DOMContentLoaded", onResize)
