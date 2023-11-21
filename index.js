@@ -33,7 +33,7 @@ const shuffle = (a) => {
     return a
 }
 
-const newSeq = () => shuffle(Array(seqLen).fill().map((_, i) => i))
+const newSeq = () => [0].concat(shuffle(Array(seqLen - 1).fill().map((_, i) => i + 1)))
 
 const tileIndices = Array(nRows*nCols).fill().map((_, i) => String.fromCharCode("a".charCodeAt(0) + i))
 const tileSeq = Array(nRows*nCols).fill().map(newSeq)
