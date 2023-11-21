@@ -26,7 +26,7 @@ html, body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url("/assets/high/bg-empty.png");
+    background-image: url("assets/high/bg-empty.png");
     position: relative;
 }
 
@@ -34,7 +34,7 @@ html, body {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background-repeat: repeat;
-    background-image: url("/assets/noise.png");
+    background-image: url("assets/noise.png");
     background-color: rgb(99, 61, 39);
 }
 
